@@ -19,7 +19,7 @@ env:
   resourceGroupName: 'msue-rg-fabmedical'
   clusterName: 'fabmedical-LCB'
   containerRegistryName: 'msue-acr'
-  containerRegistry: 'msue-acr.azurecr.io'
+  containerRegistry: 'msueacr.azurecr.io'
   dockerfilePath: './content-web'
   tag: '${{ github.run_id  }}'
 
